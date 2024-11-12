@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e79a9039-596e-4c08-9d1e-8f5a6b3affa1" name="Changes" comment="Register">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/test.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/test.trace.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Controller/NhanVienController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Controller/RestCompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Controller/RestNhanVienController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Controller/RestRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Controller/RestUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Entity/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Entity/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Entity/UserDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Repository/CompanyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Repository/NhanVienRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Service/NhanVienService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Service/UserDetailsServiceIml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/baitap/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Company/addCompany.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Company/companies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Company/companyDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Company/editCompany.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/NhanVien/addNhanVien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/NhanVien/editNhanVien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/NhanVien/nhanvienList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/User/addUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/User/editUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/User/userDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/User/userList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/User/userNotFound.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Controller/NhanVienController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Controller/RestCompanyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Controller/RestNhanVienController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Controller/RestRegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Controller/RestUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Entity/Company.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Entity/NhanVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Entity/UserDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Repository/CompanyRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Repository/NhanVienRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Repository/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Service/CompanyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Service/NhanVienService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Service/UserDetailsServiceIml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/Service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/baitap/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/Company/addCompany.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/Company/companies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/Company/companyDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/Company/editCompany.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/NhanVien/addNhanVien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/NhanVien/editNhanVien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/NhanVien/nhanvienList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/User/addUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/User/editUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/User/userDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/User/userList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/User/userNotFound.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/baitap/BaitapApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/baitap/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/baitap/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/baitap/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/addUser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/example/baitap/BaitapApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="login" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thanhduong23&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hoangtruong0907/SpringBoot_Nhom5.git&quot;,
+    &quot;accountId&quot;: &quot;283d09da-90dc-47ea-832b-f1f01008d430&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2lhL4RSBg2DZu9N24CowWDs63Mm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/LapTrinhWeb2/SpringBoot_Nhom5_ST21A1B&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\Downloads\thanh.baitap1\thanh.baitap1\src\main\java\nhom5\spring\baitap1\Entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\thanh.baitap1\src\main\resources\templates\User" />
+      <recent name="C:\Users\ASUS\IdeaProjects\thanh.baitap1\src\main\resources\templates\NhanVien" />
+      <recent name="C:\Users\ASUS\IdeaProjects\thanh.baitap1\src\main\resources\templates\Company" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nhom3.spring.thanh.baitap1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="baitap" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.baitap.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ASUS\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e79a9039-596e-4c08-9d1e-8f5a6b3affa1" name="Changes" comment="" />
+      <created>1725627170099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725627170099</updated>
+      <workItem from="1725627171144" duration="1633000" />
+      <workItem from="1725678563949" duration="40000" />
+      <workItem from="1725679069568" duration="5996000" />
+      <workItem from="1726235969379" duration="1154000" />
+      <workItem from="1726282378025" duration="1342000" />
+      <workItem from="1726837183012" duration="809000" />
+      <workItem from="1726838002819" duration="384000" />
+      <workItem from="1726887878122" duration="6505000" />
+      <workItem from="1727441319606" duration="2327000" />
+      <workItem from="1727492207928" duration="5455000" />
+      <workItem from="1728016863885" duration="166000" />
+      <workItem from="1728017587276" duration="124000" />
+      <workItem from="1728045798211" duration="3307000" />
+      <workItem from="1728049142501" duration="2282000" />
+      <workItem from="1728097161521" duration="6052000" />
+      <workItem from="1728651394235" duration="3706000" />
+      <workItem from="1728700401528" duration="7638000" />
+      <workItem from="1728708235447" duration="162000" />
+      <workItem from="1729258695665" duration="5231000" />
+      <workItem from="1729272920840" duration="364000" />
+      <workItem from="1729306626912" duration="4907000" />
+      <workItem from="1729871982988" duration="100000" />
+      <workItem from="1729872158824" duration="3471000" />
+      <workItem from="1729910747486" duration="7080000" />
+      <workItem from="1730470348606" duration="7806000" />
+      <workItem from="1730512699659" duration="1270000" />
+      <workItem from="1730514425032" duration="1589000" />
+      <workItem from="1730516078530" duration="2166000" />
+      <workItem from="1730518691031" duration="4187000" />
+      <workItem from="1731066226999" duration="379000" />
+      <workItem from="1731067807072" duration="314000" />
+      <workItem from="1731068154915" duration="2033000" />
+      <workItem from="1731070229548" duration="10000" />
+      <workItem from="1731070780717" duration="1936000" />
+      <workItem from="1731073207880" duration="11331000" />
+      <workItem from="1731111290594" duration="300000" />
+      <workItem from="1731111889578" duration="900000" />
+      <workItem from="1731116991901" duration="1243000" />
+      <workItem from="1731118321548" duration="2322000" />
+      <workItem from="1731120722237" duration="6671000" />
+      <workItem from="1731401278226" duration="12000" />
+      <workItem from="1731402264037" duration="10000" />
+      <workItem from="1731403260259" duration="294000" />
+      <workItem from="1731404091293" duration="10000" />
+      <workItem from="1731404136053" duration="14000" />
+      <workItem from="1731404278182" duration="7000" />
+      <workItem from="1731404336878" duration="200000" />
+      <workItem from="1731405104902" duration="93000" />
+      <workItem from="1731405211205" duration="13000" />
+      <workItem from="1731405455760" duration="16000" />
+      <workItem from="1731405838636" duration="137000" />
+      <workItem from="1731405990557" duration="63000" />
+      <workItem from="1731406066530" duration="206000" />
+    </task>
+    <task id="LOCAL-00001" summary="Register">
+      <option name="closed" value="true" />
+      <created>1731127011360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731127011360</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Register">
+      <option name="closed" value="true" />
+      <created>1731127016827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731127016827</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="thanh" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Register" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
